@@ -143,4 +143,3 @@ CHNOSZ: Dick, J. M. (2019). CHNOSZ: Thermodynamic calculations and diagrams for 
 
 References for each value are in the ref1 and ref2 columns (see get_references()).
 
-In DESCRIPTION, replace the REPLACE_ME@example.com address with your own.

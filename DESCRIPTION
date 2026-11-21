@@ -3,9 +3,19 @@ Type: Package
 Title: Standard Thermodynamic Properties of Formation: Database and Lookup
 Version: 0.1.0
 Authors@R: c(
-    person("Antoine Milol", role = c("aut", "cre"), email = "milolantoine123@gmail.com"),
+    person("Antoine", "Milol", role = c("aut", "cre"), email = "milolantoine123@gmail.com"),
     person("Jeffrey", "Dick", role = "dtc",
-           comment = "Author of CHNOSZ and maintainer of the OBIGT database"))
+           comment = "Author of CHNOSZ and maintainer of the OBIGT database"),
+    person("Branko", "Ruscic", role = "dtc",
+           comment = "Lead author of the Active Thermochemical Tables (ATcT)"),
+    person("David H.", "Bross", role = "dtc",
+           comment = "Co-author of recent Active Thermochemical Tables (ATcT) releases"),
+    person("William H.", "Green", role = "dtc",
+           comment = "Lead developer of the Reaction Mechanism Generator (RMG)"),
+    person("Richard H.", "West", role = "dtc",
+           comment = "Lead developer of the Reaction Mechanism Generator (RMG)"),
+    person("Matthew S.", "Johnson", role = "dtc",
+           comment = "First author of the RMG Database for Chemical Property Prediction"))
 Description: Provides a traceable database of standard thermodynamic
     properties (enthalpy and Gibbs energy of formation, entropy, heat capacity
     and volume) of chemical species at 298.15 K and 1 bar. The data are
