@@ -1,0 +1,23 @@
+# Provenance of the data files in this directory
+source: OBIGT thermodynamic database distributed with the R package CHNOSZ
+chnosz_version: 2.3.0-2 (development version of the repository)
+chnosz_date: 2026-10-23
+chnosz_commit: 4719c5c0a9a0c4188066a4c82e5046dde14e55e9
+repository: https://github.com/jedick/CHNOSZ
+retrieved: 2026-11-19
+license: GPL-3 (License field of the CHNOSZ DESCRIPTION file)
+author: Jeffrey Dick (CHNOSZ maintainer); per-species literature references are in the ref1/ref2 columns, resolved by refs.csv
+files_origin: inst/extdata/OBIGT/*.csv (default files only), inst/extdata/thermo/refs.csv, inst/extdata/thermo/element.csv
+files_not_included: optional files (SUPCRT92, SLOP98, DEW, AD), testing files, and Berman_cr.csv (92 minerals with no G, H, S or Cp value)
+unmodified: yes (byte-for-byte copies)
+sha256 H2O_aq.csv: 716ade24a048c3bb04459a94449b8a72c95dcb358b5ef868918280584d715858
+sha256 element.csv: 623f52c654efb0fbbde117b80ec6ff044e0d22f6098771873b188b079ecdd7c5
+sha256 inorganic_aq.csv: d30093265c0fb6da4e595300463ed5e75e9a03a00db1787e19044bda8005b15b
+sha256 inorganic_cr.csv: 993e44229060f7f048ff61670bef4f825af8d9c1018ccf23ffa3c57248c6204f
+sha256 inorganic_gas.csv: 7fd70ba982484427cee1594df7608cae9156abcb916ca1eedd3f4cea65bcd394
+sha256 inorganic_liq.csv: ac3dddd726ad604aa35a083adaea421366283aff61d632904a326bf5f23fa6dc
+sha256 organic_aq.csv: a35443760846d1fdba5c95857467b7fb7dc23c357b9d75ab6dd5a1f70464e8a8
+sha256 organic_cr.csv: 2b5de820bb40c5e65ef0cf4307eb8fd92243f1f8e5f81edfeaa4f6c056325e06
+sha256 organic_gas.csv: 54f014eb14078ecab25eb0e458382870cf95230c063386a5478667ee4499356d
+sha256 organic_liq.csv: 55d0460663066b9606188aa58671af738735305b1579290233a8b0e24142ae5c
+sha256 refs.csv: 7010f4f1c604e89c2f0f344982d8745330b0b346424ca8881198966fb6cc386c

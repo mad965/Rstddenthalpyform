@@ -1,0 +1,24 @@
+Package: Rstdenthalpyform
+Type: Package
+Title: Standard Thermodynamic Properties of Formation: Database and Lookup
+Version: 0.1.0
+Authors@R: c(
+    person("Antoine Milol", role = c("aut", "cre"), email = "milolantoine123@gmail.com"),
+    person("Jeffrey", "Dick", role = "dtc",
+           comment = "Author of CHNOSZ and maintainer of the OBIGT database"))
+Description: Provides a traceable database of standard thermodynamic
+    properties (enthalpy and Gibbs energy of formation, entropy, heat capacity
+    and volume) of chemical species at 298.15 K and 1 bar. The data are
+    imported without modification from the OBIGT database distributed with the
+    'CHNOSZ' package and are organised by chemical nature. A unified interface
+    returns documented values together with their source and reference
+    conditions. Missing values are reported as missing, never estimated.
+License: GPL-3
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports: stats, utils
+Suggests: testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/mad965/Rstdenthalpyform
+BugReports: https://github.com/mad965/Rstdenthalpyform/issues
+Config/roxygen2/version: 8.1.1
